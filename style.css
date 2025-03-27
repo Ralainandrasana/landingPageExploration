@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root {
   --blue-light: #00a8db;
+  --blue-light-200: rgb(4, 170, 221);
   --blue-dark: #034d82;
   --white-1: #ffffff;
   --yellow-1: #faad13;
   --black-1: #081315;
+  --gray: #90a3b4;
+  --gray-parag: #8ea9c1;
 }
 *,
 *::before,
@@ -23,7 +26,123 @@ body {
 /* header  */
 
 /* seconde section  */
+.seconde_section,
+.scheduleYourPost {
+  background-color: var(--white-1);
+}
+.first_section_on_therd,
 .measureImpression {
+  margin-top: 5%;
+  width: 80%;
+  margin-inline: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
   flex-direction: row;
+  background-color: var(--white-1);
+}
+.first_section_on_therd {
+  margin-top: 10%;
+  gap: 0;
+}
+.img_left_side {
+  position: relative;
+}
+.img_left_side img:nth-child(1) {
+  width: 450px;
+  position: relative;
+  z-index: 20;
+}
+.img_left_side img:nth-child(2) {
+  position: absolute;
+  top: 4%;
+  left: 0;
+  width: 500px;
+  /* z-index: -1; */
+}
+.side_content {
+  width: 50%;
+}
+.side_content h1,
+.Schedule h1 {
+  color: var(--blue-dark);
+  line-height: 2.8rem;
+}
+.side_content p,
+.Schedule p {
+  color: var(--gray);
+  /* font-size: 0.9rem; */
+  line-height: 1.8rem;
+  /* width: 75%; */
+  margin-top: 4%;
+}
+
+.learn_about,
+.learn_about p {
+  color: var(--blue-light-200);
+  font-weight: 600;
+  cursor: pointer;
+}
+.learn_about p:hover {
+  color: rgba(4, 170, 221, 0.7);
+}
+.fa-arrow-right {
+  margin-left: 1rem;
+}
+ul {
+  list-style-type: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 2.5%;
+}
+ul li p {
+  margin-top: 0 !important;
+  margin-left: 1rem;
+}
+
+/********************************* trackAnyHashtagsPerformance  *************************************/
+.trackAnyHashtagsPerformance {
+  background-color: #effbff;
+  padding: 5%;
+}
+.trackAnyHashtagsPerformance h1 {
+  color: var(--blue-dark);
+  text-align: center;
+}
+.trackAnyHashtagsPerformance p:nth-child(2) {
+  color: var(--gray-parag);
+  text-align: center;
+  margin-top: 2%;
+  margin-inline: auto;
+  width: 40%;
+  line-height: 2rem;
+}
+.Hashtag {
+  background-color: var(--white-1);
+  padding: 1.5rem;
+  width: 20%;
+  padding-bottom: 3rem;
+}
+.Hashtag h2 {
+  color: var(--blue-dark);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.Hashtag p {
+  color: var(--gray-parag);
+  line-height: 2rem;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5%;
+}
+.Hashtag:nth-child(1) {
+  box-shadow: 2px 50px 50px #5a71843b;
 }
