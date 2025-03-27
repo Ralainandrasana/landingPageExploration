@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root {
   --blue-light: #00a8db;
   --blue-dark: #034d82;
@@ -5,10 +6,24 @@
   --yellow-1: #faad13;
   --black-1: #081315;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
 
 /* header  */
 
 /* seconde section  */
-.seconde_section {
+.measureImpression {
   display: flex;
+  flex-direction: row;
 }
