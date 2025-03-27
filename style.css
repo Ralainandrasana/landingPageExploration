@@ -5,3 +5,10 @@
   --yellow-1: #faad13;
   --black-1: #081315;
 }
+
+/* header  */
+
+/* seconde section  */
+.seconde_section {
+  display: flex;
+}
