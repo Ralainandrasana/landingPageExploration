@@ -21,6 +21,9 @@ body {
 }
 
 /* header  */
+header {
+  background: var(--blue-light);
+}
 
 /* seconde section  */
 .measureImpression {
