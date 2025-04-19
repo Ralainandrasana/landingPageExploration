@@ -8,6 +8,7 @@
   --black-1: #081315;
   --gray: #90a3b4;
   --gray-parag: #8ea9c1;
+  --gray-logo: #1d282a;
 }
 *,
 *::before,
@@ -28,8 +29,8 @@ body {
 header {
   background: var(--blue-light);
   color: var(--white-1);
-  padding: 2rem 6rem 2rem 6rem;
-  height: 110vh;
+  padding: 2rem 6rem 5rem 6rem;
+  height: 120vh;
 }
 header .top {
   display: flex;
@@ -38,6 +39,18 @@ header .top .logo {
   width: 50%;
   display: flex;
   align-items: center;
+}
+.rsxSociaux {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapRsxSociaux {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
 }
 header .top .nav {
   width: 50%;
@@ -197,7 +210,127 @@ ul li p {
   margin-top: 0 !important;
   margin-left: 1rem;
 }
+.growYourBrand {
+  background: linear-gradient(to left, #01b8d9, #24ceed);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  color: var(--white-1);
+  padding: 5px 50px 5px 50px;
+  border-radius: 10px;
+}
+.growYourBrand p {
+  margin: 20px 0 10px 0;
+}
+.growYourBrand .media {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.growYourBrand .media img {
+  margin-left: 10px;
+}
+.growYourBrand .text {
+  line-height: 2.1rem;
+}
+.growYourBrand .right {
+  background-image: url("img/Group42.png");
+  /* background: #000; */
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
 
+.wrapGrowYourBrand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.pdpAndOther {
+  display: flex;
+  align-items: center;
+}
+.pdpAndOther .profil {
+  display: flex;
+  align-items: center;
+}
+.pdpAndOther .profil img {
+  margin-left: -10px;
+}
+.pdpAndOther .other {
+  color: var(--white-1);
+  margin-left: 10px;
+}
+.poweringTheGrowth {
+  display: flex;
+  justify-content: center;
+}
+.growYourBrand button {
+  background-color: var(--white-1);
+  color: var(--blue-light);
+  border: none;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+}
+footer {
+  background-color: var(--black-1);
+  color: var(--white-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+.wrapFooter {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.wrapFooter .top {
+  display: flex;
+  justify-content: space-evenly;
+}
+.heart .wrapBlue {
+  width: 50px;
+  height: 50px;
+  background-color: var(--blue-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.wrapFooter .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0 50px 0;
+}
+.wrapFooter .logo {
+  display: flex;
+  margin-top: 20px;
+}
+.wrapFooter .wrapLogo {
+  background-color: var(--gray-logo);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+footer a {
+  text-decoration: none;
+  color: var(--white-1);
+  opacity: 0.5;
+}
+footer .top {
+  display: flex;
+}
 /********************************* trackAnyHashtagsPerformance  *************************************/
 .trackAnyHashtagsPerformance {
   background-color: #effbff;
