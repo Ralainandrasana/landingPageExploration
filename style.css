@@ -205,6 +205,15 @@ ul li p {
   color: var(--blue-dark);
   text-align: center;
 }
+.inforamtio_powering_the_growth h1 {
+  color: var(--blue-dark);
+  text-align: left;
+  line-height: 3rem;
+  width: 70%;
+}
+.inforamtio_powering_the_growth p {
+  margin-top: 5%;
+}
 .trackAnyHashtagsPerformance p:nth-child(2) {
   color: var(--gray-parag);
   text-align: center;
@@ -218,15 +227,29 @@ ul li p {
   padding: 1.5rem;
   width: 20%;
   padding-bottom: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Hashtag:hover {
+  transform: scale(1.04);
+  margin-inline: 1%;
 }
 .Hashtag h2 {
   color: var(--blue-dark);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.Hashtag p {
+.Hashtag p,
+.inforamtio_powering_the_growth p,
+.message,
+.post_client {
   color: var(--gray-parag);
   line-height: 2rem;
+}
+.message {
+  font-style: italic;
+  margin-top: 2%;
+  width: 75%;
 }
 .list {
   display: flex;
@@ -236,4 +259,78 @@ ul li p {
 }
 .Hashtag:nth-child(1) {
   box-shadow: 2px 50px 50px #5a71843b;
+}
+
+.poweringTheGrowth {
+  padding: 5%;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.temoin,
+.avatar_client {
+  display: flex;
+  gap: 15px;
+}
+.right_side_temoin {
+  margin-top: 2%;
+}
+.avatar_client {
+  margin-top: 2%;
+}
+.name {
+  color: var(--blue-dark);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.temoin {
+  position: relative;
+}
+.fa-chevron-left,
+.fa-chevron-right {
+  position: absolute;
+  border-radius: 60%;
+  padding: 1rem;
+  padding-inline: 1.2rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.fa-chevron-left {
+  bottom: 8%;
+  left: -5%;
+  background-color: var(--white-1);
+  color: var(--blue-dark);
+}
+.fa-chevron-right {
+  bottom: 8%;
+  right: 20%;
+  background-color: var(--blue-dark);
+  color: white;
+  box-shadow: 4px 4px 146px var(--blue-light);
+}
+.fa-chevron-right:hover,
+.fa-chevron-left:hover {
+  background-color: var(--blue-light);
+}
+.fa-chevron-left:hover {
+  color: var(--white-1);
+}
+.dots {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+.dots span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--gray-parag);
+  cursor: pointer;
+}
+.dots span:first-child {
+  background-color: var(--blue-dark);
 }
